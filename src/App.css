@@ -1,14 +1,3 @@
-@font-face {
-  font-family: "Graphik";
-  src: url("../fonts/Graphik-Regular.eot");
-  src: url("../fonts/Graphik-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Graphik-Regular.woff2") format("woff2"),
-    url("../fonts/Graphik-Regular.woff") format("woff"),
-    url("../fonts/Graphik-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
   font-family: "GraphikM";
@@ -20,10 +9,6 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-}
-#root {
-  margin: 0 auto;
-  padding: 3rem;
 }
 
 
@@ -48,19 +33,22 @@
 }
 .left{
   background-color: transparent;
-  color: #E50914;
+  border: 1px solid white !important;
+  color: white;
 }
 .right{
   background-color: #E50914;
-  color: black;
 }
 .navbar img{
-  
   min-width: 40%;
   max-width: 50%;
 }
 
 @media (min-width: 570px) {
+  #root {
+    margin: 0 10%;
+    padding: 3rem;
+  }
   .phone{
     display: none;
   }
@@ -69,6 +57,11 @@
   }
 }
 @media (max-width: 569px) {
+
+  #root {
+    margin: 0 auto;
+    padding: 3rem;
+  }
 
   .nvb{
     display: none;
@@ -96,14 +89,16 @@
 }
 
 .middleLeft{
-  place-items: center;
+  place-items: left;
 }
 
-
+span{
+  color: #E50914;
+}
 
 .middleLeft p{
-  font-size: small;
-  margin-top: 4px;
+  font-size: 1.125rem;
+  line-height: 150%;
 }
 
 .middleLeft a,
@@ -122,7 +117,24 @@
   
 }
 
+.middleLeft h1{
+  text-align: left;
+  font-family: Graphik;
+  font-weight: bolder;
+  color: white;
+  
+}
+.midh1{
+  margin-bottom: 5%;
+}
+
+
 @media (min-width: 570px) {
+
+  .checkmark{
+    width: 2% !important;
+  }
+
   .mid{
     min-width: 50%;
     height: 80vh;
@@ -132,33 +144,35 @@
     text-align: left;
   }
   .middleLeft h1{
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 5%;
-    color: #E50914;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 569px) {
 
+  .checkmark{
+    width: 4% !important;
+  }
+  .middleLeft p{
+    font-size: 1rem;
+    line-height: 140%;
+  }
   .mid{
-    
     min-width: 100%;
-    height:35vh;
+    height:36vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: center;
   }
   .middleLeft h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 5%;
-    color: #E50914;
-  }
-  .middleLeft img{
-    width: 60%;
   }
   .mainContainer{
     flex-wrap: wrap-reverse;
       }
+      .plansB{
+        display: none;
+      }
 }
+
