@@ -11,6 +11,9 @@
   font-display: swap;
 }
 
+div:hover {
+border: 1px dotted pink;
+}
 
 /* navbar css */
 
@@ -126,6 +129,13 @@ span{
 }
 .midh1{
   margin-bottom: 5%;
+}
+
+.middleRight img{
+  scale: 1;
+}
+.middleRight {
+  display: flex;
 }
 
 
