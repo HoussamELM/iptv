@@ -1,6 +1,6 @@
 import React from 'react'
 import tv from '../pictures/iptv.png';
-import tv2 from '../pictures/iptv.png';
+import tv2 from '../pictures/iptvmb.png';
 import logo2 from '../pictures/TFAREJ-IPTV.png';
 import checkmark from '../pictures/check-mark.png';
 
