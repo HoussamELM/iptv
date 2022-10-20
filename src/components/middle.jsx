@@ -43,7 +43,7 @@ const Main = () => {
 
         <div className="leftBottom">
           <a className='plansB' >Nos plans</a> &nbsp; &nbsp;
-          <a className='essaieB' href='https://docs.google.com/forms/d/e/1FAIpQLSdX2sCFNgrjsizLX0IF_uxYlArY1V5xRSMyfG1GPEYc4FtbqQ/viewform'> Essaie 24h</a>
+          <a className='essaieB' href='https://docs.google.com/forms/d/e/1FAIpQLSdX2sCFNgrjsizLX0IF_uxYlArY1V5xRSMyfG1GPEYc4FtbqQ/viewform' target="_blank">Essaie 24h</a>
         </div>
       </div>
       <div className='mid middleRight pc'>
