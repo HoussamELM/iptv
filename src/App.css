@@ -134,9 +134,7 @@ span{
 .middleRight img{
   scale: 1;
 }
-.middleRight {
-  display: flex;
-}
+
 
 
 @media (min-width: 570px) {
