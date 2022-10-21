@@ -6,13 +6,6 @@ import Swal from 'sweetalert2';
 
 const Navbar = () => {
 
-const nextURL = 'https://my-website.com/page_b';
-const nextTitle = 'My new page title';
-const nextState = { additionalInformation: 'Updated the URL with JS' };
-
-function y(){
-    window.history.pushState(nextState, nextTitle, nextURL);
-}
 
 function x(){
     Swal.fire({

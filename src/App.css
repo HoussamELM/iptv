@@ -223,7 +223,3 @@ form{
   justify-content: center;
   gap: 10px;
 }
-
-div:hover{
-  border: 1px dotted pink;
-}
