@@ -13,12 +13,12 @@ function App() {
 <BrowserRouter>
       <Routes>
       
-        <Route path="/" element={
+        <Route path="/iptv/" element={
         <>
         <Navbar/>
         <Main/>
         </>}/>
-        <Route path="/essaie" element={
+        <Route path="/iptv/essaie" element={
         <>
         <Navbar/>
         <Essaie/>
