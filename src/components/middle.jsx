@@ -45,7 +45,7 @@ const Main = () => {
 
         <div className="leftBottom">
           <a className='plansB' >Nos plans</a> &nbsp; &nbsp;
-          <a className='essaieB' onClick={() => {navigate("/iptv/essaie")}}>Essaie 24h</a>
+          <a className='essaieB' onClick={() => {navigate("/essaie")}}>Essaie 24h</a>
         </div>
       </div>
       <div className='mid middleRight pc'>
