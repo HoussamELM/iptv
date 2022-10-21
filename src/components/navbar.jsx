@@ -27,7 +27,7 @@ const navigate = useNavigate()
         <nav className='navbar'>
             <div>
                 <ul>
-                    <li className='logo'><a onClick={() => {navigate("/")}}><img src={logo} alt='logo'></img></a></li>
+                    <li className='logo'><a onClick={() => {navigate("/iptv")}}><img src={logo} alt='logo'></img></a></li>
 
                 </ul>
             </div>
