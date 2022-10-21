@@ -13,6 +13,7 @@
 
 :root{
   --NetflixRed : #e50914;
+  --myBlack: #242121;
 }
 
 /* navbar css */
@@ -164,7 +165,9 @@ span{
   } 
 }
 @media (max-width: 569px) {
-
+  .group{
+    
+  }
   .checkmark{
     width: 4% !important;
   }
@@ -190,7 +193,37 @@ span{
       .plansB{
         display: none;
       }
-
 }
  
+/* essaie styles */
 
+form, .form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+form{
+  height: 80vh;
+}
+.form-group{
+  background-color: var(--myBlack);
+  border-radius: 10px;
+  width: 90%;
+  height: 60vh;
+}
+.formTitle{
+  height: 10vh;
+}
+.group{
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+div:hover{
+  border: 1px dotted pink;
+}

@@ -1,9 +1,18 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 import logo from '../pictures/logo.png'
 import phone from '../pictures/phone.png';
 import Swal from 'sweetalert2';
 
 const Navbar = () => {
+
+const nextURL = 'https://my-website.com/page_b';
+const nextTitle = 'My new page title';
+const nextState = { additionalInformation: 'Updated the URL with JS' };
+
+function y(){
+    window.history.pushState(nextState, nextTitle, nextURL);
+}
 
 function x(){
     Swal.fire({
@@ -17,19 +26,21 @@ function x(){
         showConfirmButton : false,
       })
 }
+const navigate = useNavigate()
+
 
     return (
 
         <nav className='navbar'>
             <div>
                 <ul>
-                    <li className='logo'><a href=''><img src={logo} alt='logo'></img></a></li>
+                    <li className='logo'><a onClick={() => {navigate("/")}}><img src={logo} alt='logo'></img></a></li>
 
                 </ul>
             </div>
             <div>
                 <ul>
-                    <li className='nvb left'><a href='https://docs.google.com/forms/d/e/1FAIpQLSdX2sCFNgrjsizLX0IF_uxYlArY1V5xRSMyfG1GPEYc4FtbqQ/viewform' target='_blank'>Essaie gratuit</a></li>
+                    <li className='nvb left'><a onClick={() => {navigate("/essaie")}}>Essaie gratuit</a></li>
                     <li className='nvb right'><a onClick={()=>x()}>Contactez nous</a></li>
                 </ul>
             </div>
