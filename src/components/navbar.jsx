@@ -33,7 +33,7 @@ const navigate = useNavigate()
             </div>
             <div>
                 <ul>
-                    <li className='nvb left'><a onClick={() => {navigate("/iptv/essaie")}}>Essaie gratuit</a></li>
+                    <li className='nvb left'><a onClick={() => {navigate("/essaie")}}>Essaie gratuit</a></li>
                     <li className='nvb right'><a onClick={()=>x()}>Contactez nous</a></li>
                 </ul>
             </div>
