@@ -9,7 +9,8 @@ import { useNavigate } from "react-router-dom";
 const Main = () => {
   const navigate = useNavigate()
   return (
-    <div className='mainContainer'>
+    <div>
+<div className='page1 mainContainer'>
       <div className='mid middleLeft'>
         <div>
         <div className="midh1">
@@ -36,13 +37,7 @@ const Main = () => {
             &nbsp; 50000+ VODs */}
             Achetez un abonnement IPTV avec jusqu'à 20000 chaînes TV et plus de 50000 VOD avec toutes les qualités FHD et 4K, de toutes les chaînes de télévision et services de streaming célèbres comme Netflix, HBO Max, Bein sports etc...
           </p>
-
-
-
-
-           
         </div>
-
         <div className="leftBottom">
           <a className='plansB' >Nos plans</a> &nbsp; &nbsp;
           <a className='essaieB' onClick={() => {navigate("/iptv/essaie")}}>Essaie 24h</a>
@@ -55,6 +50,13 @@ const Main = () => {
         <img src={tv2} className='tv' />
       </div>
     </div>
+<div className='page2 maincontainer'>
+
+
+
+</div>
+    </div>
+    
   )
 }
 

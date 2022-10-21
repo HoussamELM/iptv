@@ -10,10 +10,21 @@
   font-style: normal;
   font-display: swap;
 }
+/*accidental bg*/
+ body{
+  background-image: url("./pictures/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-color: #121212;
+} 
+
 
 :root{
   --NetflixRed : #e50914;
   --myBlack: #242121;
+   
 }
 
 /* navbar css */
