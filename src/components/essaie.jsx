@@ -44,11 +44,6 @@ const Essaie = () => {
         setTimeout(function () { window.location.replace("http://192.168.100.6:5173/iptv/");; }, 3000);
     }
 
-    function changetype() {
-        document.getElementsByTagName("birthday").type = "date";
-        console.log("succes");
-    }
-
     return (
 
 <div className='essaieContainer'>
@@ -81,7 +76,7 @@ const Essaie = () => {
                         <input type="email" name="email" placeholder='Email' value={email} onChange={handleChange} required />
                         </div>
                         <div className='essaiebutton'>
-                            <a className='formSubmit' onClick={() => sumbited()}>Valider</a>
+                            <button className='formSubmit' onClick={() => sumbited()}>Valider</button>
                         </div>
                     </div>
 </form>

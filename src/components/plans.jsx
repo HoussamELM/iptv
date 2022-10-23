@@ -22,7 +22,7 @@ const Plans = () => {
   <div className="card">
   <div>
   <h5>3 Mois</h5>
-    <p>abbonement (payé en avance)</p>
+    <p>abbonement (300DH payé en avance)</p>
     <h1>100 DH <span>/mois</span></h1>
     <hr/>
     <ul>
@@ -38,7 +38,7 @@ const Plans = () => {
   <div className="card">
   <div>
   <h5>6 Mois</h5>
-    <p>abbonement (payé en avance)</p>
+    <p>abbonement (450DH payé en avance)</p>
     <h1>75 DH <span>/mois</span></h1>
     <hr/>
     <ul>
@@ -54,7 +54,7 @@ const Plans = () => {
   <div className="card">
   <div>
   <h5>12 Mois</h5>
-    <p>abbonement (payé en avance)</p>
+    <p>abbonement (600DH payé en avance)</p>
     <h1>50 DH <span>/mois</span></h1>
     <hr/>
     <ul>
