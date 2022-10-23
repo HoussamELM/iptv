@@ -19,7 +19,7 @@
 }
  body{
   background-image: url("./pictures/bg.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
@@ -240,12 +240,6 @@ span{
   }
 
 }
-
-
-
-
-
- 
 @media (min-width: 769px)
 {
   .plans{
@@ -272,41 +266,38 @@ span{
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 /* essaie styles */
 
-form, .form-group{
+div:hover{ 
+  border: 1px solid pink;
+  }
+
+form{
+width: 100%;
+height: 75vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.form-group{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
-form{
-  height: 80vh;
-}
-.form-group{
-  background-color: var(--myBlack);
-  border-radius: 10px;
-  width: 90%;
-  height: 60vh;
-}
-.formTitle{
-  height: 10vh;
-}
+
 .group{
-  height: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  margin: 6% 0;
+  width: 95%;
+}
+input{
+  padding: 10px 10px;
+}
+label{
+  font-size: 60% !important;
 }
