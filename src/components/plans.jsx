@@ -44,7 +44,7 @@ const Plans = () => {
     <ul>
       <li>20000 chaine TV</li>
       <li>50000 VOD(Netflix...)</li>
-      <li>1 utilisateur</li>
+      <li>2 utilisateur</li>
     </ul>
     <div className='choose'>
     <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 6 mois">choisir</a>
@@ -60,7 +60,7 @@ const Plans = () => {
     <ul>
       <li>20000 chaine TV</li>
       <li>50000 VOD(Netflix...)</li>
-      <li>1 utilisateur</li>
+      <li>3 utilisateur</li>
     </ul>
     <div className='choose'>
     <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 12 mois">choisir</a>
