@@ -447,6 +447,8 @@ form{
 }
 .card h1{
   font-family: "prompt", sans-serif;
+  font-weight: 700;
+  font-size: x-large;
 }
 .card hr{
   width: 100%;
@@ -472,4 +474,9 @@ form{
   background-color: transparent;
   font-family: "prompt", sans-serif;
   font-weight: 700;
+}
+
+.card {
+  overflow-x: auto;
+  overflow-y: hidden;
 }

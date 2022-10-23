@@ -5,7 +5,7 @@ const Plans = () => {
 <div className='plans' id="plans">
   <div className="card">
   <div>
-  <h5>MENSUEL</h5>
+  <h5>1 Mois</h5>
     <p>abbonement (payé en avance)</p>
     <h1>150 DH <span>/mois</span></h1>
     <hr/>
