@@ -56,7 +56,14 @@ const Essaie = () => {
                     <h1 className='formPageTitle'>
                         Essaie <span>24h</span> gratuit
                     </h1>
-
+                    <p className='remplir'>Remplissez le formulaire</p>
+                    <p className='essaiInfo'>
+                        Beneficier de tous les avantages pendant <span>24h</span>
+                    </p>
+                    <p className='essaiInfo'>
+                    Apres la validation, un agent vas vous envoyer votre code d`essaie.</p> 
+                    <p className='essaiInfo'>N'hesiter pas de nous <span>contacter</span> pour plus d'information!</p>
+                    
 </div>
 <div className='essaieRight'>
 <form onSubmit={handleSubmit}>
@@ -73,8 +80,8 @@ const Essaie = () => {
                         <div className='group'>
                         <input type="email" name="email" placeholder='Email' value={email} onChange={handleChange} required />
                         </div>
-                        <div>
-                            <button className='formSubmit' onClick={() => sumbited()}>Valider</button>
+                        <div className='essaiebutton'>
+                            <a className='formSubmit' onClick={() => sumbited()}>Valider</a>
                         </div>
                     </div>
 </form>

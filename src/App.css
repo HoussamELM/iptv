@@ -277,16 +277,27 @@ form{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 8%;
 }
 
 .essaieLeft{
   text-align: left;
 }
 
-.formPageTitle{
+.formPageTitle {
   font-family: "Prompt", sans-serif;
-  font-weight: 900;
+  font-size: xx-large;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.remplir{
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 7px;
+}
+.essaiInfo{
+  font-family: 'Sarala', sans-serif;
+  font-size: smaller;
 }
 
 @media (min-width: 568px){
@@ -300,30 +311,56 @@ form{
 .formPageTitle{
   font-size: 2.5rem;
 }
+
+.essaieContainer{
+  height: 70vh;
+  margin-top: 30px;
+}
 }
 
 @media (max-width: 569px){
   .essaieLeft, .essaieRight{
-    width: 90%;
+    width: 100%;
+}
+.essaiInfo{
+  display: none;
 }
 .essaieLeft{
   display: flex;
   align-items: center;
+  padding: 17% 20px;
+  flex-direction: column;
   height: 15vh !important;
   text-align: center;
-  font-size: 1.9rem;
 }
 .essaieRight{
-  height: 60vh !important;
+  height:60vh !important;
 }
 .essaieContainer{
   flex-direction: column !important;
-  height: 85vh;
+  height: 70vh;
+  margin-top: 30px;
 }
 .form-group{
   width: 90%;
 }
+}
 
+.essaiebutton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.essaieContainer a{
+  padding: 4% 24%;
+  border-radius: 10px;
+  border: 2px solid var(--NetflixRed);
+  background-color: transparent;
+  font-family: "prompt", sans-serif;
+  font-weight: 700;
+  margin-top: 5%;
 }
 
 /* plans */
