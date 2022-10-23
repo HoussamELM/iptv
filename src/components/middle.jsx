@@ -40,7 +40,7 @@ const Main = () => {
         </div>
       </div>
       <div className='page2 maincontainer'>
-        <div>
+        <div className='arrowdiv'>
           <h1>Nos plans <span>IPTV</span></h1>
           <p><img src={arrowhead} className="arrow" /></p>
         </div>

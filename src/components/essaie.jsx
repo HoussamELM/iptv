@@ -44,32 +44,43 @@ const Essaie = () => {
         setTimeout(function () { window.location.replace("http://192.168.100.6:5173/iptv/");; }, 3000);
     }
 
+    function changetype() {
+        document.getElementsByTagName("birthday").type = "date";
+        console.log("succes");
+    }
+
     return (
-        <form onSubmit={handleSubmit}>
-            <div className="form-group">
-                <div className='formTitle'>
-                    <h1>
-                        Formulaire <span>essaie gratuit</span>
+
+<div className='essaieContainer'>
+<div className='essaieLeft'>
+                    <h1 className='formPageTitle'>
+                        Essaie <span>24h</span> gratuit
                     </h1>
-                </div>
-                <div className='group'>
-                    <label htmlFor="name">Nom et prenom</label>
-                    <input type="text" name="name" value={name} onChange={handleChange} required /></div>
-                <div className='group'>
-                    <label htmlFor="birthday">Date de naissance</label>
-                    <input type="date" name="birthday" value={birthday} onChange={handleChange} required /></div>
-                <div className='group'>
-                    <label htmlFor="name">Email</label>
-                    <input type="email" name="email" value={email} onChange={handleChange} required /></div>
-                <div className='group'>
-                    <label htmlFor="name">Numero Whatsapp</label>
-                    <input type="number" name="number" value={number} onChange={handleChange} required />
-                </div>
-                <div>
-                    <button onClick={() => sumbited()} >Submit</button>
-                </div>
-            </div>
-        </form>
+
+</div>
+<div className='essaieRight'>
+<form onSubmit={handleSubmit}>
+                    <div className="form-group">
+                        <div className='group'>
+                            <input type="text" name="name" placeholder='Nom et Prenom' value={name} onChange={handleChange} required />
+                        </div>
+                        <div className='group'>
+                        <input type="date" name="birthday" placeholder="Date de naissance" value={birthday} onChange={handleChange} required />
+                        </div>
+                        <div className='group'>
+                        <input type="number" name="number" placeholder='Numero whatsapp' value={number} onChange={handleChange} required /> 
+                        </div>
+                        <div className='group'>
+                        <input type="email" name="email" placeholder='Email' value={email} onChange={handleChange} required />
+                        </div>
+                        <div>
+                            <button className='formSubmit' onClick={() => sumbited()}>Valider</button>
+                        </div>
+                    </div>
+</form>
+</div>
+</div>
+
     )
 }
 
