@@ -198,9 +198,7 @@ span{
   .mainContainer{
     flex-wrap: wrap-reverse;
       }
-      .plansB{
-        display: none;
-      }
+
 }
 
 .arrowdiv{
@@ -210,20 +208,7 @@ span{
 
 @media (max-width: 570px) {
   
-  .plans{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .plans div{
-    width :90%;
-    height: 60vh;
-    border-radius: 10px;
-    background-color: var(--myBlack);
-  }
+
   .arrow{
     width: 7%;
   }
@@ -239,17 +224,6 @@ span{
 }
 @media (min-width: 769px)
 {
-  .plans{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-  .plans div{
-    width :30%;
-    height: 60vh;
-    border-radius: 10px;
-    background-color: var(--myBlack);
-  }
   .arrow{
     width: 2%;
   }
@@ -350,4 +324,98 @@ form{
   width: 90%;
 }
 
+}
+
+/* plans */
+
+@media (min-width: 769px)
+{
+  .plans{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card{
+    width :23%;
+    height: 35vh;
+    border-radius: 10px;
+    background-color: var(--myBlack);
+  }
+  .card h1{
+    font-weight: 700;
+    font-size: 240%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 570px) {
+  
+  .plans{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .card{
+    width :90%;
+    height: 35vh;
+    border-radius: 10px;
+    background-color: var(--myBlack);
+  }
+  .plansB{
+    display: none;
+  }
+  .card h1{
+    font-weight: 700;
+    font-size: 200%;
+    margin-bottom: 3%;
+  }
+}
+
+.card div{
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.card h5{
+ font-family: "prompt", sans-serif;
+ font-weight: 700;
+ font-size: xx-large;
+}
+.card p{
+  font-family: "sarala", sans-serif;
+  font-size: x-small;
+  margin-bottom: 7%;
+  margin-top: 1%;
+}
+.card h1{
+  font-family: "prompt", sans-serif;
+}
+.card hr{
+  width: 100%;
+}
+.card ul{
+  font-family: "mukta", sans-serif;
+  margin-top: 5%;
+  line-height: 18px;
+}
+.card ul li{
+  list-style-type: disc;
+  margin-left: 9%;
+}
+.choose{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose a{
+  padding: 8% 53%;
+  border-radius: 10px;
+  border: 2px solid var(--NetflixRed);
+  background-color: transparent;
+  font-family: "prompt", sans-serif;
+  font-weight: 700;
 }
