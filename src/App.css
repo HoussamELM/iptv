@@ -365,6 +365,13 @@ form{
 
 /* plans */
 
+/* .card{
+  background-image: url("./pictures/blob.png");
+  background-size: 120%;
+  background-position: right;
+  background-repeat: no-repeat;
+} */
+
 @media (min-width: 769px)
 {
   .plans{
