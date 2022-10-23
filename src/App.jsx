@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/middle"
 import Navbar from './components/navbar';
 import Essaie from "./components/essaie";
-import Form from './components/form';
 import './App.css'
 
 
