@@ -1,10 +1,10 @@
 @media(max-width: 570px){
   body{
     background-image: url("./pictures/bgmb.png") !important;
-    background-size: 100vh 100vh;
+    background-repeat: no-repeat;
   }
 }
- body{
+body{
   background-image: url("./pictures/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
