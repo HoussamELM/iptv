@@ -26,23 +26,23 @@ const Main = () => {
             <div className="leftBottom">
               <a className='plansB' onClick={() => { 
                 const anchor = document.querySelector('#plans')
-                anchor.scrollIntoView({ behavior: 'smooth', block: 'center' }) }}>Nos plans</a> &nbsp; &nbsp;
-              <a className='essaieB' onClick={() => { navigate("/iptv/essaie") }}>Essaie 24h</a>
+                anchor.scrollIntoView({ behavior: 'smooth', block: 'center' }) }} tabIndex="0">Nos plans</a> &nbsp; &nbsp;
+              <a className='essaieB' onClick={() => { navigate("/iptv/essaie") }} tabIndex="0">Essaie 24h</a>
             </div>
           </div>
 
         </div>
         <div className='mid middleRight pc'>
-          <img src={tv} className='tv' />
+          <img src={tv} className='tv' alt='IPTV TV'/>
         </div>
         <div className='mid middleRight mobile'>
-          <img src={tv2} className='tv' />
+          <img src={tv2} className='tv' alt='IPTV TV'/>
         </div>
       </div>
       <div className='page2 maincontainer'>
         <div className='arrowdiv'>
           <h1>Nos plans <span>IPTV</span></h1>
-          <p><img src={arrowhead} className="arrow" /></p>
+          <p><img src={arrowhead} className="arrow" alt='arrow'/></p>
         </div>
         <Plans />
       </div>

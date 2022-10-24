@@ -40,7 +40,7 @@ const navigate = useNavigate()
             <div className="phone">
                 <ul>
                     <li className='phone'>
-                        <a href="https://wa.me/+212619834123?text=Bonjour!"><img src={phone}></img></a>
+                        <a href="https://wa.me/+212619834123?text=Bonjour!"><img src={phone} tabIndex="0"></img></a>
                     </li>
                 </ul>
             </div>

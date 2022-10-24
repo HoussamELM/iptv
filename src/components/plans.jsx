@@ -15,7 +15,7 @@ const Plans = () => {
       <li>1 utilisateur</li>
     </ul>
     <div className='choose'>
-    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan d'un seul mois">choisir</a>
+    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan d'un seul mois" tabIndex="0">choisir</a>
     </div>
   </div>
   </div>
@@ -31,7 +31,7 @@ const Plans = () => {
       <li>1 utilisateur</li>
     </ul>
     <div className='choose'>
-    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 3 mois">choisir</a>
+    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 3 mois" tabIndex="0">choisir</a>
     </div>
   </div>
   </div>
@@ -47,7 +47,7 @@ const Plans = () => {
       <li>2 utilisateur</li>
     </ul>
     <div className='choose'>
-    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 6 mois">choisir</a>
+    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 6 mois" tabIndex="0">choisir</a>
     </div>
   </div>
   </div>
@@ -63,7 +63,7 @@ const Plans = () => {
       <li>3 utilisateur</li>
     </ul>
     <div className='choose'>
-    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 12 mois">choisir</a>
+    <a target="_blank" href="https://wa.me/+212619834123?text=Bonjour! je veux commander un plan de 12 mois" tabIndex="0">choisir</a>
     </div>
   </div>
   </div>
